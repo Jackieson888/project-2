@@ -7,20 +7,27 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="home">
         <h3>Jackson Schacher</h3>
         <nav>
             <ul>
                 <li>
-                    Home
+                    <a href="#home">
+                        Home
+                    </a>
                 </li>
                 <li>
-                    Portfolio
+                    <a href="#portfolio">
+                        Portfolio
+                    </a>
                 </li>
                 <li>
-                    Contact
+                    <a href="#contact">
+                        Contact
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -29,7 +36,7 @@
         <img src="images/responsive-layout-profile.png" alt="profile picture" />
         <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
     </div>
-    <main>
+    <main id="portfolio">
         <h2>Portfolio</h2>
         <div class="portfolio-item">
             <img src="images/portfolio-1.png" alt="Marketing Page" />
@@ -62,19 +69,37 @@
             <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
         </div>
     </main>
-    <div class="contact-item">
+    <div id="contact" class="contact-item">
         <h2>
             Contact
         </h2>
         <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-        <span>Phone <strong>+1 (111)555-1234</strong></span>
-        <br />
-        <span>Email <strong>email@yoursite.com</strong></span>
+        <p>Phone <strong>+1 (111)555-1234</strong></p>
+        <p>Email <strong>email@yoursite.com</strong></p>
     </div>
     <hr />
     <footer>
-        <h4>Jackson Schacher</h4>
-        <h4><a href="#top">Back to Top</a></h4>
+        <h4 style="padding-right:15px;">
+            Jackson Schacher <a class="top-anchor" style="padding-left:15px;" href="#top">Back to Top</a>
+        </h4>
+            <ul class="footer-nav">
+                <li>
+                    <a href="#home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#portfolio">
+                        Portfolio
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        
     </footer>
 </body>
 </html>
